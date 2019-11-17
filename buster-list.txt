@@ -6,7 +6,7 @@ buster|main|amd64: libfaudio0 19.11-0~buster
 buster|main|amd64: libfinance-quote-moex-perl 0.3-1
 buster|main|amd64: libusb-vhci 0.8-2
 buster|main|amd64: libusb-vhci-dev 0.8-2
-buster|main|amd64: onedrive 2.3.9-1
+buster|main|amd64: onedrive 2.3.11-1
 buster|main|amd64: ptv3 3.10.3-2
 buster|main|amd64: usb-vhci-hcd-dev 1.15.1-1
 buster|main|amd64: usb-vhci-hcd-dkms 1.15.1-1
