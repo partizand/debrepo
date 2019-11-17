@@ -3,13 +3,13 @@ Label: Andrey debian bullseye repo
 Suite: testing
 Codename: bullseye
 Version: 11.x
-Date: Sun, 17 Nov 2019 11:36:19 UTC
+Date: Sun, 17 Nov 2019 12:08:53 UTC
 Architectures: amd64 arm arm64
 Components: main
 Description: Andrey personal repository debian bullseye
 MD5Sum:
- d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
- 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ 43b30c7e4790e73f6a16ac1e1723d31c 647 main/binary-amd64/Packages
+ b941fb1f0bb319362498edbf8fe6cf93 436 main/binary-amd64/Packages.gz
  3adb9a3f32cc9b1eaa1a73b7c22b360e 184 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm/Packages.gz
@@ -18,8 +18,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
  320064a3c6b8278bfafc062859224361 184 main/binary-arm64/Release
 SHA1:
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
- 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ 5a020512d90cd4c1054791e484a6e1a31301aeef 647 main/binary-amd64/Packages
+ aba08860d77108a23727c609af3a32cb7e6a4982 436 main/binary-amd64/Packages.gz
  f97942837057996acb3357a2413f850d7ab2b2a7 184 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm/Packages.gz
@@ -28,8 +28,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
  6b1e6cd2f73d97911fecb68696dfa4169029cc0e 184 main/binary-arm64/Release
 SHA256:
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
- 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ a4b60370607316b1243e04aff1772c9f4797c376b0f3af3731ef30cd6d4bbe7d 647 main/binary-amd64/Packages
+ b4f065de764aec9c6eea525dd3931b34cecbf35a910ca15f2c503f6aa430329a 436 main/binary-amd64/Packages.gz
  c8234c122449ba474b6baa70c07c11b8358d9d68a2225ec41f96fd2b4197f960 184 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm/Packages.gz
