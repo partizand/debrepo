@@ -1,0 +1,101 @@
+Package: autoshutdown
+Version: 0.9.9.10-2
+Architecture: all
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 110
+Depends: fping, pm-utils, sysstat, net-tools
+Conflicts: openmediavault-autoshutdown
+Homepage: https://github.com/OpenMediaVault-Plugin-Developers/openmediavault-autoshutdown
+Priority: optional
+Section: utils
+Filename: pool/main/a/autoshutdown/autoshutdown_0.9.9.10-2_all.deb
+Size: 24448
+SHA256: 6805cb20e821b7448ba359d6c21397c45ceefd32958a504764810ad12746f868
+SHA1: 80b0832cd4e6aca1926a52ab485a9b2716b82318
+MD5sum: 18ef2e62907b060704a3250331657d18
+Description: bash systemd daemon to shutdown host by inactivity.
+ Allow system to be automatically shutdown
+ based on use rather than a specified time.
+
+Package: keepass2-ru
+Version: 2.43-1
+Architecture: all
+Maintainer: andrey <andrey@unknown>
+Installed-Size: 55
+Depends: keepass2
+Priority: optional
+Section: misc
+Filename: pool/main/k/keepass2-ru/keepass2-ru_2.43-1_all.deb
+Size: 46520
+SHA256: e2934c2b3524593d4d8649b9afb14e8ae9f80f9ac519af46f81ef31c449d6895
+SHA1: 03c9d77ddd80874e80eaaa71163b4b49aeb995df
+MD5sum: 448affaf354d36e541c7cdf01b798fd8
+Description: Translate russian file for keepass2
+ https://keepass.info/translations.html
+
+Package: libfinance-quote-moex-perl
+Version: 0.3-1
+Architecture: all
+Maintainer: andrey <partizand@gmail.com>
+Installed-Size: 26
+Depends: perl, libfinance-quote-perl
+Homepage: https://metacpan.org/release/Finance-Quote-Moex
+Priority: optional
+Section: perl
+Filename: pool/main/libf/libfinance-quote-moex-perl/libfinance-quote-moex-perl_0.3-1_all.deb
+Size: 7328
+SHA256: 8dea55e1c950aa55fab392893fa551513fbe88023b58ea4b97dcceca40a9f502
+SHA1: 7c6245d42627ff9ca8034529c8d6beb74f89897f
+MD5sum: 21097974f83b84f9a6ed0821961b20e4
+Description: (no short description found)
+ Finance::Quote::Moex fetches bond share quotes information from the Moex
+ russian exchange http://www.moex.com and http://rbc.ru
+ .
+ It's not loaded as default Finance::Quote module, so you need create it
+ .
+ by Finance::Quote->new("Moex"). If you want it to load by default,
+ .
+ make changes to Finance::Quote default module loader, or use
+ .
+ FQ_LOAD_QUOTELET environment variable. Gnucash example:
+ .
+ FQ_LOAD_QUOTELET="-defaults Moex" gnucash
+ .
+ This description was automagically extracted from the module by dh-make-perl.
+
+Package: ptv3
+Version: 3.10.3-2
+Architecture: all
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 3016
+Depends: python2
+Priority: optional
+Section: net
+Filename: pool/main/p/ptv3/ptv3_3.10.3-2_all.deb
+Size: 619840
+SHA256: de1949d7d631ef248a2e4aced16c46fe9579c30ade789c2d8da06facb3a2657b
+SHA1: a4ae2183ee2ca05c5d923caf723d704d9c8685e3
+MD5sum: 1f83ddd74419ddefbd59555f95a8bfd8
+Description: Original PazzleTV3 server packed to deb systemd service
+ Try carefully store settings and security
+ http://xbmc.ru/forum/showthread.php?t=16628
+
+Package: wol-service
+Version: 0.1-1
+Architecture: all
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 13
+Depends: ethtool
+Priority: optional
+Section: misc
+Filename: pool/main/w/wol-service/wol-service_0.1-1_all.deb
+Size: 2408
+SHA256: 49817553b85f8885324687e25f34d38f9b47083d828dc96692abd9033c45c3ff
+SHA1: 9aef4ccc005a880eeb352beb2977ad4d8ab63bae
+MD5sum: 7f2ef731eb1b52dbd8b803e563d964b3
+Description: Service to enable Wake-on-LAN on interface. From Arch wiki
+ For activate Wake-on-LAN on interface, start this service by starting wol@interface-name.service
+ For example enp3s0 interface use wol@enp3s0.service:
+ sudo systemctl enable wol@enp3s0.service
+ sudo systemctl start wol@enp3s0.service
+

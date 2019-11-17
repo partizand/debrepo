@@ -15,6 +15,149 @@ Description: Acestream engine
  Add systemd service acestream. Add user and group acestream.
  http://acestream.org
 
+Package: aksusbd
+Version: 7.100-1
+Architecture: amd64
+Maintainer: Gemalto <support@safenet-inc.com>
+Installed-Size: 4096
+Priority: extra
+Section: non-free/misc
+Filename: pool/main/a/aksusbd/aksusbd_7.100-1_amd64.deb
+Size: 5409902
+SHA256: 09074ddea82b73c5fc11a04cc251cb57b09061f3ad60548701ee4f831fd99078
+SHA1: 7d7466a0765358b52c8ea7f596dc784a262f82a1
+MD5sum: 52add566000c606812c3df80d782f74a
+Description: Sentinel LDK daemon
+ Sentinel LDK runtime supporting Sentinel, Sentinel HL, HASP 4, and Hardlock keys.
+
+Package: autoshutdown
+Version: 0.9.9.10-2
+Architecture: all
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 110
+Depends: fping, pm-utils, sysstat, net-tools
+Conflicts: openmediavault-autoshutdown
+Homepage: https://github.com/OpenMediaVault-Plugin-Developers/openmediavault-autoshutdown
+Priority: optional
+Section: utils
+Filename: pool/main/a/autoshutdown/autoshutdown_0.9.9.10-2_all.deb
+Size: 24448
+SHA256: 6805cb20e821b7448ba359d6c21397c45ceefd32958a504764810ad12746f868
+SHA1: 80b0832cd4e6aca1926a52ab485a9b2716b82318
+MD5sum: 18ef2e62907b060704a3250331657d18
+Description: bash systemd daemon to shutdown host by inactivity.
+ Allow system to be automatically shutdown
+ based on use rather than a specified time.
+
+Package: keepass2-ru
+Version: 2.43-1
+Architecture: all
+Maintainer: andrey <andrey@unknown>
+Installed-Size: 55
+Depends: keepass2
+Priority: optional
+Section: misc
+Filename: pool/main/k/keepass2-ru/keepass2-ru_2.43-1_all.deb
+Size: 46520
+SHA256: e2934c2b3524593d4d8649b9afb14e8ae9f80f9ac519af46f81ef31c449d6895
+SHA1: 03c9d77ddd80874e80eaaa71163b4b49aeb995df
+MD5sum: 448affaf354d36e541c7cdf01b798fd8
+Description: Translate russian file for keepass2
+ https://keepass.info/translations.html
+
+Package: libfaudio0
+Source: faudio
+Version: 19.11-0~buster
+Architecture: amd64
+Maintainer: Sveinar Søpler <cybermax@dexter.no>
+Installed-Size: 388
+Depends: libavcodec58 (>= 7:4.0), libavutil56 (>= 7:4.0), libc6 (>= 2.14), libsdl2-2.0-0 (>= 2.0.9), libstb0 (>= 0.0~git20180212.15.e6afb9c)
+Breaks: libfaudio0 (<< 19.03-0), libfaudio0-amd64 (<< 19.03-0), libfaudio0-i386 (<< 19.03-0)
+Replaces: libfaudio0 (<< 19.03-0), libfaudio0-amd64 (<< 19.03-0), libfaudio0-i386 (<< 19.03-0)
+Multi-Arch: same
+Homepage: https://github.com/FNA-XNA/FAudio
+Priority: optional
+Section: libs
+Filename: pool/main/f/faudio/libfaudio0_19.11-0~buster_amd64.deb
+Size: 133272
+SHA256: 7a010719cf916aacfcda5eed391f97bef8246c4a513128b4236323f1342347c3
+SHA1: 2ee18e8b236020009a4b3a0f84766f9793851ff9
+MD5sum: 0014972f09fb7872676fa62b7fb9c592
+Description: XAudio sound processing reimplementation - library
+ FAudio is a sound processing library that aims to support fully accurate
+ DirectX audio capabilities including XAudio2, X3DAudio, XAPO, and XACT3.
+ .
+ This package provides the library itself.
+
+Package: libfinance-quote-moex-perl
+Version: 0.3-1
+Architecture: all
+Maintainer: andrey <partizand@gmail.com>
+Installed-Size: 26
+Depends: perl, libfinance-quote-perl
+Homepage: https://metacpan.org/release/Finance-Quote-Moex
+Priority: optional
+Section: perl
+Filename: pool/main/libf/libfinance-quote-moex-perl/libfinance-quote-moex-perl_0.3-1_all.deb
+Size: 7328
+SHA256: 8dea55e1c950aa55fab392893fa551513fbe88023b58ea4b97dcceca40a9f502
+SHA1: 7c6245d42627ff9ca8034529c8d6beb74f89897f
+MD5sum: 21097974f83b84f9a6ed0821961b20e4
+Description: (no short description found)
+ Finance::Quote::Moex fetches bond share quotes information from the Moex
+ russian exchange http://www.moex.com and http://rbc.ru
+ .
+ It's not loaded as default Finance::Quote module, so you need create it
+ .
+ by Finance::Quote->new("Moex"). If you want it to load by default,
+ .
+ make changes to Finance::Quote default module loader, or use
+ .
+ FQ_LOAD_QUOTELET environment variable. Gnucash example:
+ .
+ FQ_LOAD_QUOTELET="-defaults Moex" gnucash
+ .
+ This description was automagically extracted from the module by dh-make-perl.
+
+Package: libusb-vhci
+Version: 0.8-2
+Architecture: amd64
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 70
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://sourceforge.net/projects/usb-vhci/
+Priority: optional
+Section: libs
+Filename: pool/main/libu/libusb-vhci/libusb-vhci_0.8-2_amd64.deb
+Size: 18120
+SHA256: 527b05684c62d0800f11f0770749e338a52004deea5d21ead6be40e6b187916c
+SHA1: 90f46971146502548cd56098eac0fe938c9e3433
+MD5sum: c210e6155ff23e38469ca4371e63ff05
+Description: User-mode libraries for a virtual usb host controller.
+ This project consists of a linux kernel driver and some user-mode libraries. They allow a process to create a virtual usb host controller. Real     or virtual usb devices can be "plugged" into this controller.
+ https://sourceforge.net/p/usb-vhci/wiki/Home/
+
+Package: libusb-vhci-dev
+Source: libusb-vhci
+Version: 0.8-2
+Architecture: amd64
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 37
+Depends: libusb-vhci (= 0.8-2)
+Multi-Arch: same
+Homepage: http://sourceforge.net/projects/usb-vhci/
+Priority: optional
+Section: libs
+Filename: pool/main/libu/libusb-vhci/libusb-vhci-dev_0.8-2_amd64.deb
+Size: 6732
+SHA256: 7fe17a61420196f46749a610ce2620018441b1ea4f02ec90ab29906103b5218c
+SHA1: 70649eca8a50209e80f826f6be004e2c25eea332
+MD5sum: c26d3b2f14a05e6da0f1a2cf52dce1d8
+Description: Header files user-mode libraries for a virtual usb host controller.
+ This project consists of a linux kernel driver and some user-mode libraries. They allow a process to create a virtual usb host controller. Real or virtual usb devices can be "plugged" into this controller.
+ https://sourceforge.net/p/usb-vhci/wiki/Home/
+
 Package: onedrive
 Version: 2.3.11-1
 Architecture: amd64
@@ -33,4 +176,133 @@ Description: folder synchronization with OneDrive
  OneDrive is the cloud storage system of Microsoft. This package provides
  the command line client specialising in synchronizing with OneDrive cloud
  storage.
+
+Package: ptv3
+Version: 3.10.3-2
+Architecture: all
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 3016
+Depends: python2
+Priority: optional
+Section: net
+Filename: pool/main/p/ptv3/ptv3_3.10.3-2_all.deb
+Size: 619840
+SHA256: de1949d7d631ef248a2e4aced16c46fe9579c30ade789c2d8da06facb3a2657b
+SHA1: a4ae2183ee2ca05c5d923caf723d704d9c8685e3
+MD5sum: 1f83ddd74419ddefbd59555f95a8bfd8
+Description: Original PazzleTV3 server packed to deb systemd service
+ Try carefully store settings and security
+ http://xbmc.ru/forum/showthread.php?t=16628
+
+Package: usb-vhci-hcd-dev
+Source: usb-vhci-hcd
+Version: 1.15.1-1
+Architecture: amd64
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 20
+Homepage: https://sourceforge.net/projects/usb-vhci/
+Priority: optional
+Section: kernel
+Filename: pool/main/u/usb-vhci-hcd/usb-vhci-hcd-dev_1.15.1-1_amd64.deb
+Size: 4220
+SHA256: 59e485d35463f8393d5ed120d7ed17c29317895040cc1d30dbc4ea90d45f739b
+SHA1: 657f1912ff2addd7b9896fa78c15e6bb8008e715
+MD5sum: e3a2bab091e1e9f1836cb7ee86495a0f
+Description: Lib header files for a virtual usb host controller.
+ This project consists of a linux kernel driver and some user-mode libraries. They allow a process to create a virtual usb host controller. Real     or virtual usb devices can be "plugged" into this controller.
+ https://sourceforge.net/p/usb-vhci/wiki/Home/
+
+Package: usb-vhci-hcd-dkms
+Source: usb-vhci-hcd
+Version: 1.15.1-1
+Architecture: amd64
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 149
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://sourceforge.net/projects/usb-vhci/
+Priority: optional
+Section: kernel
+Filename: pool/main/u/usb-vhci-hcd/usb-vhci-hcd-dkms_1.15.1-1_amd64.deb
+Size: 30252
+SHA256: 13e55c83e4b56df3a4526d32aa2d7283ba1166a1152f1d053b3ad7ff6036dbe9
+SHA1: 735ee4e58d786eea40095b6749cdb1314400430e
+MD5sum: 26ada300b528c3c5c606dc72f7932eab
+Description: Kernel modules for a virtual usb host controller. Use DKMS
+ This project consists of a linux kernel driver and some user-mode libraries. They allow a process to create a virtual usb host controller. Real     or virtual usb devices can be "plugged" into this controller.
+ https://sourceforge.net/p/usb-vhci/wiki/Home/
+
+Package: usb-vhci-hcd-modules-4.19.0-6-amd64
+Source: usb-vhci-hcd-dkms-bin
+Version: 1.15.1
+Architecture: amd64
+Maintainer: Dynamic Kernel Modules Support Team <pkg-dkms-maint@lists.alioth.debian.org>
+Installed-Size: 97
+Depends: linux-image-4.19.0-6-amd64
+Provides: usb-vhci-hcd-modules
+Priority: optional
+Section: misc
+Filename: pool/main/u/usb-vhci-hcd-dkms-bin/usb-vhci-hcd-modules-4.19.0-6-amd64_1.15.1_amd64.deb
+Size: 16836
+SHA256: ac22a7b631b4e8e4b1c2f43c15236e0ad81153a61f0b4e253db64d078a876819
+SHA1: 55701206f795f5aeae6fb96515234a476b23f5fa
+MD5sum: fc5470e011c43efb54532f57cd211d0f
+Description: usb-vhci-hcd binary drivers for linux-image-4.19.0-6-amd64
+ This package contains usb-vhci-hcd drivers for the 4.19.0-6-amd64 Linux kernel,
+ built from usb-vhci-hcd-dkms for the amd64 architecture.
+
+Package: usbhasp
+Version: 0.1-2
+Architecture: amd64
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 55
+Depends: libc6 (>= 2.14), libjansson4 (>= 2.0.1), libusb-vhci
+Recommends: aksusbd
+Homepage: https://github.com/sam88651/UsbHasp
+Priority: optional
+Section: misc
+Filename: pool/main/u/usbhasp/usbhasp_0.1-2_amd64.deb
+Size: 13680
+SHA256: 47576dbacf2c4168e49110fea8cf6961b7add011a8aa9f99d2a9220893a24b82
+SHA1: 90de4f3504ebc20d5833c9913f32e31ddbdfa655
+MD5sum: d4f8dcda803257d267ad5a8956c4ca9d
+Description: Research of usb hasp protection in Linux environment
+ This project is about Usb hasp emulator on Linux.
+ In particular on Debian based platforms.
+ This package include usbhaspd systemd daemon.
+ https://github.com/sam88651/UsbHasp
+
+Package: veracrypt
+Architecture: amd64
+Conflicts: veracrypt-console
+Depends: libwxgtk3.0-gtk3-0v5, libfuse2, dmsetup
+Priority: optional
+Section: libs
+Filename: pool/main/v/veracrypt/veracrypt_1.24.7-1_amd64.deb
+Size: 3306908
+SHA256: b1b03b43a48c3b139b2d70a91b29d788eddcc332ccf932767c0b51b5182ab3d6
+SHA1: 28d4a9f3d3504b7a0047d22f59a9e65312809049
+MD5sum: e7bbfa4185b382217852d1a80d650f28
+Description: Disk encryption with strong security based on TrueCrypt.
+Maintainer: VeraCrypt Team <veracrypt@idrix.fr>
+Version: 1.24.7-1
+Installed-Size: 7186
+
+Package: wol-service
+Version: 0.1-1
+Architecture: all
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 13
+Depends: ethtool
+Priority: optional
+Section: misc
+Filename: pool/main/w/wol-service/wol-service_0.1-1_all.deb
+Size: 2408
+SHA256: 49817553b85f8885324687e25f34d38f9b47083d828dc96692abd9033c45c3ff
+SHA1: 9aef4ccc005a880eeb352beb2977ad4d8ab63bae
+MD5sum: 7f2ef731eb1b52dbd8b803e563d964b3
+Description: Service to enable Wake-on-LAN on interface. From Arch wiki
+ For activate Wake-on-LAN on interface, start this service by starting wol@interface-name.service
+ For example enp3s0 interface use wol@enp3s0.service:
+ sudo systemctl enable wol@enp3s0.service
+ sudo systemctl start wol@enp3s0.service
 
