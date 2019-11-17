@@ -159,23 +159,20 @@ Description: Header files user-mode libraries for a virtual usb host controller.
  https://sourceforge.net/p/usb-vhci/wiki/Home/
 
 Package: onedrive
-Version: 2.3.11-1
+Installed-Size: 4584
+Maintainer: partizand@gmail.com
 Architecture: amd64
-Maintainer: Norbert Preining <norbert@preining.info>
-Installed-Size: 2087
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.12.0), libnotify4 (>= 0.7.3), libphobos2-ldc-shared87 (>= 1:1.17.0), libsqlite3-0 (>= 3.7.14), init-system-helpers (>= 1.51)
-Homepage: https://github.com/abraunegg/onedrive
-Priority: optional
-Section: net
-Filename: pool/main/o/onedrive/onedrive_2.3.11-1_amd64.deb
-Size: 424096
-SHA256: 10f1a3c4c4b72b5159e1c8ae2ac7bd6f41dcfd5469097a4aea17ce10e346e452
-SHA1: 732fed9a205c862bdcffd3c025014087898229bd
-MD5sum: 5bd3a919f09a1e2fadf449a0a2b75f22
-Description: folder synchronization with OneDrive
- OneDrive is the cloud storage system of Microsoft. This package provides
- the command line client specialising in synchronizing with OneDrive cloud
- storage.
+Version: 2.3.9-1
+Depends: libsqlite3-0, libnotify4
+Provides: onedrive
+Priority: extra
+Section: checkinstall
+Filename: pool/main/o/onedrive/onedrive_2.3.9-1_amd64.deb
+Size: 933292
+SHA256: 91468c594e553aff14aebe828f8582544a882a80cc00cc0802ba434bf8ae0e24
+SHA1: 9141bf22fd9c14c45c2224393e8de159a317a9e7
+MD5sum: 39c2c0e8e6072e380b6bb0a9bf7a824e
+Description: Onedrive client. Compiled from site
 
 Package: ptv3
 Version: 3.10.3-2
