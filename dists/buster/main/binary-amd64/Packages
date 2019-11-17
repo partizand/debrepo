@@ -1,3 +1,20 @@
+Package: acestream
+Version: 3.1.49-2
+Architecture: amd64
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 38902
+Depends: python-setuptools, python-m2crypto, python-apsw, libc6 (>= 2.3), libpython2.7 (>= 2.7), libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.1.4)
+Priority: optional
+Section: misc
+Filename: pool/main/a/acestream/acestream_3.1.49-2_amd64.deb
+Size: 15900288
+SHA256: 0d314cb957eac9525555f1d5eab9536b627f7a65d0de447f833b8bd46c6edfb8
+SHA1: 581334a8f053c0ee536ee6748404691363ccc4c1
+MD5sum: e29e681b34572cf8ca4308d8d5305038
+Description: Acestream engine
+ Add systemd service acestream. Add user and group acestream.
+ http://acestream.org
+
 Package: onedrive
 Version: 2.3.11-1
 Architecture: amd64
