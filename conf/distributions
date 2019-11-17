@@ -1,0 +1,19 @@
+Codename: buster
+Suite:  stable
+Version: 10.x
+Origin: Andrey repository
+Label: Andrey debian buster repo
+Description: Andrey personal repository debian buster
+Architectures: amd64 arm arm64
+Components: main
+#SignWith: default
+
+
+Codename: bullseye
+Suite:  testing
+Version: 11.x
+Origin: Andrey repository
+Label: Andrey debian bullseye repo
+Description: Andrey personal repository debian bullseye
+Architectures: amd64 arm arm64
+Components: main

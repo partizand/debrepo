@@ -1,0 +1,7 @@
+Archive: testing
+Version: 11.x
+Component: main
+Origin: Andrey repository
+Label: Andrey debian bullseye repo
+Architecture: arm64
+Description: Andrey personal repository debian bullseye

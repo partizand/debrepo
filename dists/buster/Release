@@ -1,0 +1,39 @@
+Origin: Andrey repository
+Label: Andrey debian buster repo
+Suite: stable
+Codename: buster
+Version: 10.x
+Date: Sun, 17 Nov 2019 12:07:15 UTC
+Architectures: amd64 arm arm64
+Components: main
+Description: Andrey personal repository debian buster
+MD5Sum:
+ 0ddb72925bae82d34ed8ded8b7a6ce05 843 main/binary-amd64/Packages
+ e7c9e76cd1fab1147acb7963a2d35948 549 main/binary-amd64/Packages.gz
+ 21a73c7790ff65ee2db17c4c07201a02 179 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm/Packages.gz
+ 19b5893e4f872a7c2edcfefac2ce1ad6 177 main/binary-arm/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 17d167579a8cc0e558dabe3b8755af9a 179 main/binary-arm64/Release
+SHA1:
+ ecce1bd5ede05ab350e950903f7c55e93151c3ed 843 main/binary-amd64/Packages
+ 15576f1ec730e421d7330754e86adcf74db788ed 549 main/binary-amd64/Packages.gz
+ 03c7f7cf972ef0790e51a5d08344f8026686bff2 179 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm/Packages.gz
+ bed98779e186d92bf1cc6b4b4f7b05123a2af8fb 177 main/binary-arm/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ 02134c1d27528a9b0911f18abc3cbbe268416f7b 179 main/binary-arm64/Release
+SHA256:
+ 07e484f248a17bd65e994eb49aceeec08b2eb31cd346effcb4b6147b36e2a049 843 main/binary-amd64/Packages
+ ec92f6b44952ad265eafbb08931535d9c983465e6d823f8d6b38be253b1a0fbe 549 main/binary-amd64/Packages.gz
+ dd02e12c7fb2e473c5a770c7c397ed0036ec523ae6fdb5522737ab42bd894398 179 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm/Packages.gz
+ dc6ba70119925651f1c2bfc94b64e5668c690f9c244a110b95d1cf47b787c109 177 main/binary-arm/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 364b98b01ef98737ab807a4000a22f0c3910a7094a7b13f140088f1659c42c80 179 main/binary-arm64/Release
