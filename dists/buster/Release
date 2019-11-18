@@ -3,7 +3,7 @@ Label: Andrey debian buster repo
 Suite: stable
 Codename: buster
 Version: 10.x
-Date: Mon, 18 Nov 2019 12:42:16 UTC
+Date: Mon, 18 Nov 2019 12:43:17 UTC
 Architectures: amd64 arm arm64
 Components: main
 Description: Andrey personal repository debian buster
