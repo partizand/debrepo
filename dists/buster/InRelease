@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Origin: Andrey repository
 Label: Andrey debian buster repo
 Suite: stable
@@ -37,3 +40,17 @@ SHA256:
  e3b0b3827eaa7773b434996e8fda2d3efad8431581bc8a2dfcfe0579cf137329 3557 main/binary-arm64/Packages
  f82bc12f07dd7f56ac41fa42dab9322b4fdbc54a861e86e0407f6588f409ed9b 1672 main/binary-arm64/Packages.gz
  364b98b01ef98737ab807a4000a22f0c3910a7094a7b13f140088f1659c42c80 179 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEcJux9PCqPJ8A74OoJfoiS5Q7QzwFAl3SkakACgkQJfoiS5Q7
+QzxCEwv/aH+Qdo1TU13PH6X37hX4GvcjQnSHJl8PX/HBm4KXHkpwGcwNemXez2VQ
+XH5Zc3/lJmd7DGj6VwCWlDWQhqvjY0a0Tk8UmWuWRlt5XmQGIKPTGVfIOpsmIuFh
+DkER0qzrxeE8In/f3P5mf5IvfzLa9HOnoScf63SOSeolfJyrC39ao65zMjuUFhfO
+pmS0XqahZ+5nZkTHKOXOYZnxNoW2zuE+IhC8l1N3agSAPvBFYm5xcEMe46sZV0uG
+0lsdtZEG2YYnWvySXbx/BzRiLLu+mo9FBU2NTYMf71glWkwB4EnJnKnf5fGiUtbe
+lFwfYHFA3Ahb7yyleqS0BgEdMcpoHX9yQUcBwmDNbs8NAbaGBUz7nVUd7jSkBmob
+trIAA7oS78Y5ywkFpB/D1OxwsyZhFxW3AnR0nR0m2J29aELv/U9ur1V4famN93QL
+0R28QXJ44JmqwMy/RM8hP/2lAgYYwdc4YZ/wZfIVoXPokWRGEtEa7tYMIFL9qYTu
+PRInaVF6
+=/ejR
+-----END PGP SIGNATURE-----

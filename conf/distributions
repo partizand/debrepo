@@ -6,7 +6,7 @@ Label: Andrey debian buster repo
 Description: Andrey personal repository debian buster
 Architectures: amd64 arm arm64
 Components: main
-#SignWith: default
+SignWith: default
 
 
 Codename: bullseye
