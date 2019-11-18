@@ -178,18 +178,18 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: ptv3
-Version: 3.10.3-2
+Version: 3.11.7-1
 Architecture: all
 Maintainer: Partizand <partizand@gmail.com>
-Installed-Size: 3016
+Installed-Size: 4008
 Depends: python2
 Priority: optional
 Section: net
-Filename: pool/main/p/ptv3/ptv3_3.10.3-2_all.deb
-Size: 619840
-SHA256: de1949d7d631ef248a2e4aced16c46fe9579c30ade789c2d8da06facb3a2657b
-SHA1: a4ae2183ee2ca05c5d923caf723d704d9c8685e3
-MD5sum: 1f83ddd74419ddefbd59555f95a8bfd8
+Filename: pool/main/p/ptv3/ptv3_3.11.7-1_all.deb
+Size: 779928
+SHA256: 9331ee39f8dc79dc21a0159646aaa9014d430c662d6ffeb1bfe6bb28a4f9003e
+SHA1: 82fb5f1d0d6668bb89223d165fe13fabd3a883ac
+MD5sum: 704cd06259abae6c1855b6d47d75a392
 Description: Original PazzleTV3 server packed to deb systemd service
  Try carefully store settings and security
  http://xbmc.ru/forum/showthread.php?t=16628
