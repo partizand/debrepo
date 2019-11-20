@@ -1,0 +1,7 @@
+Archive: stable
+Version: 10.x
+Component: main
+Origin: Andrey repository
+Label: Andrey debian buster repo
+Architecture: source
+Description: Andrey personal repository debian buster

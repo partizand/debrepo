@@ -1,0 +1,82 @@
+Package: autoshutdown
+Version: 0.9.9.10-2
+Architecture: all
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 110
+Depends: fping, pm-utils, sysstat, net-tools
+Conflicts: openmediavault-autoshutdown
+Homepage: https://github.com/OpenMediaVault-Plugin-Developers/openmediavault-autoshutdown
+Priority: optional
+Section: utils
+Filename: pool/main/a/autoshutdown/autoshutdown_0.9.9.10-2_all.deb
+Size: 24448
+SHA256: 6805cb20e821b7448ba359d6c21397c45ceefd32958a504764810ad12746f868
+SHA1: 80b0832cd4e6aca1926a52ab485a9b2716b82318
+MD5sum: 18ef2e62907b060704a3250331657d18
+Description: bash systemd daemon to shutdown host by inactivity.
+ Allow system to be automatically shutdown
+ based on use rather than a specified time.
+
+Package: keepass2-ru
+Version: 2.43-1
+Architecture: all
+Maintainer: andrey <andrey@unknown>
+Installed-Size: 55
+Depends: keepass2
+Priority: optional
+Section: misc
+Filename: pool/main/k/keepass2-ru/keepass2-ru_2.43-1_all.deb
+Size: 46520
+SHA256: e2934c2b3524593d4d8649b9afb14e8ae9f80f9ac519af46f81ef31c449d6895
+SHA1: 03c9d77ddd80874e80eaaa71163b4b49aeb995df
+MD5sum: 448affaf354d36e541c7cdf01b798fd8
+Description: Translate russian file for keepass2
+ https://keepass.info/translations.html
+
+Package: libfinance-quote-moex-perl
+Version: 0.3-1
+Architecture: all
+Maintainer: andrey <partizand@gmail.com>
+Installed-Size: 26
+Depends: perl, libfinance-quote-perl
+Homepage: https://metacpan.org/release/Finance-Quote-Moex
+Priority: optional
+Section: perl
+Filename: pool/main/libf/libfinance-quote-moex-perl/libfinance-quote-moex-perl_0.3-1_all.deb
+Size: 7328
+SHA256: 8dea55e1c950aa55fab392893fa551513fbe88023b58ea4b97dcceca40a9f502
+SHA1: 7c6245d42627ff9ca8034529c8d6beb74f89897f
+MD5sum: 21097974f83b84f9a6ed0821961b20e4
+Description: (no short description found)
+ Finance::Quote::Moex fetches bond share quotes information from the Moex
+ russian exchange http://www.moex.com and http://rbc.ru
+ .
+ It's not loaded as default Finance::Quote module, so you need create it
+ .
+ by Finance::Quote->new("Moex"). If you want it to load by default,
+ .
+ make changes to Finance::Quote default module loader, or use
+ .
+ FQ_LOAD_QUOTELET environment variable. Gnucash example:
+ .
+ FQ_LOAD_QUOTELET="-defaults Moex" gnucash
+ .
+ This description was automagically extracted from the module by dh-make-perl.
+
+Package: ptv3
+Version: 3.11.8-1
+Architecture: all
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 3960
+Depends: python2
+Priority: optional
+Section: net
+Filename: pool/main/p/ptv3/ptv3_3.11.8-1_all.deb
+Size: 778928
+SHA256: 6ddf7a2216fdbeff3c93eb141509d65560df8f1ae9d3a5e89a688ba6ad49b6d1
+SHA1: a9973b7ba30f5058a1c9b76fe49743455a98b118
+MD5sum: 92723f38cd9370a1b63279ff1386cc32
+Description: Original PazzleTV3 server packed to deb systemd service
+ Try carefully store settings and security
+ http://xbmc.ru/forum/showthread.php?t=16628
+
