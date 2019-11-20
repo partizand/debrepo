@@ -2,6 +2,8 @@
 
 BASEDIR=`dirname "$0"`
 
+codename="buster"
+
 # Ask deb file
 debfile=`kdialog --getopenfilename . "Deb files (*.deb)" `
 
@@ -10,14 +12,48 @@ if [ -z $debfile ] ; then
     exit 1
 fi
 
-codename=`kdialog --radiolist "Select codename:" buster "buster" on  bullseye "bullseye" off`
+#codename=`kdialog --radiolist "Select codename:" buster "buster" on  bullseye "bullseye" off`
 
 if [ -z $codename ] ; then 
     echo "User codename cancelled"
     exit 1
 fi
 
+# Git choise
 
+gitchoise=`kdialog --checklist "Select git operations:" commit "Commit" off  push "Push" off`
+
+commit=false
+push=false
+
+if [ "$?" = 0 ]; then
+	if [ $(expr length "$gitchoise") != 0 ]; then
+		for result in $gitchoise
+			do
+				if [ $result = '"commit"' ]; then
+					#kdialog --msgbox "YOU CHOSE commit";
+					commit=true
+				fi;
+				if [ $result = '"push"' ]; then
+					#kdialog --msgbox "YOU CHOSE push";
+					push=true
+				fi;
+
+			done;
+	else
+		#kdialog --sorry "NO SELECTION WAS MADE";
+		exit 1
+	fi;
+elif [ "$?" = 1 ]; then
+	#kdialog --sorry "YOU CHOSE CANCEL";
+	exit 1
+else
+	kdialog --error "ERROR";
+	exit 2
+fi;
+
+
+exit
 #echo $debfile
 
 #echo $codename
@@ -35,14 +71,16 @@ reprepro -b ${BASEDIR} list $codename > "${BASEDIR}/${codename}-list.txt"
 
 exit 0
 
-# git commit
-cd ${BASEDIR}
-filename=`basename $debfile`
-# git add files
-git add --all
-git commit -a -m "Add package file ${filename} to ${codename}"
+if [ commit ] ; then
+    # git commit
+    cd ${BASEDIR}
+    filename=`basename $debfile`
+    # git add files
+    git add --all
+    git commit -a -m "Add package file ${filename} to ${codename}"
 
-echo "git all commited"
+    echo "git all commited"
+fi
     
     
 
