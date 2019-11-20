@@ -64,18 +64,18 @@ Description: (no short description found)
  This description was automagically extracted from the module by dh-make-perl.
 
 Package: ptv3
-Version: 3.11.8-1
+Version: 3.11.7-1
 Architecture: all
 Maintainer: Partizand <partizand@gmail.com>
-Installed-Size: 3960
+Installed-Size: 3959
 Depends: python2
 Priority: optional
 Section: net
-Filename: pool/main/p/ptv3/ptv3_3.11.8-1_all.deb
-Size: 778928
-SHA256: 6ddf7a2216fdbeff3c93eb141509d65560df8f1ae9d3a5e89a688ba6ad49b6d1
-SHA1: a9973b7ba30f5058a1c9b76fe49743455a98b118
-MD5sum: 92723f38cd9370a1b63279ff1386cc32
+Filename: pool/main/p/ptv3/ptv3_3.11.7-1_all.deb
+Size: 779092
+SHA256: afb35ae043a0e7163ab6c7854833fa50baa2ba9ab3348eaa4f2dcf2030adeb57
+SHA1: dc1357f3bc27d2875c6680acb4d200fef6b61aec
+MD5sum: c8d9f9f8e390c83bfeef128409d5f5d9
 Description: Original PazzleTV3 server packed to deb systemd service
  Try carefully store settings and security
  http://xbmc.ru/forum/showthread.php?t=16628
