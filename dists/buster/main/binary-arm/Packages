@@ -80,22 +80,3 @@ Description: Original PazzleTV3 server packed to deb systemd service
  Try carefully store settings and security
  http://xbmc.ru/forum/showthread.php?t=16628
 
-Package: wol-service
-Version: 0.1-1
-Architecture: all
-Maintainer: Partizand <partizand@gmail.com>
-Installed-Size: 13
-Depends: ethtool
-Priority: optional
-Section: misc
-Filename: pool/main/w/wol-service/wol-service_0.1-1_all.deb
-Size: 2408
-SHA256: 49817553b85f8885324687e25f34d38f9b47083d828dc96692abd9033c45c3ff
-SHA1: 9aef4ccc005a880eeb352beb2977ad4d8ab63bae
-MD5sum: 7f2ef731eb1b52dbd8b803e563d964b3
-Description: Service to enable Wake-on-LAN on interface. From Arch wiki
- For activate Wake-on-LAN on interface, start this service by starting wol@interface-name.service
- For example enp3s0 interface use wol@enp3s0.service:
- sudo systemctl enable wol@enp3s0.service
- sudo systemctl start wol@enp3s0.service
-

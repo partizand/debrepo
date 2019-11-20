@@ -178,18 +178,18 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: ptv3
-Version: 3.11.7-1
+Version: 3.11.8-1
 Architecture: all
 Maintainer: Partizand <partizand@gmail.com>
-Installed-Size: 4008
+Installed-Size: 3960
 Depends: python2
 Priority: optional
 Section: net
-Filename: pool/main/p/ptv3/ptv3_3.11.7-1_all.deb
-Size: 779928
-SHA256: 9331ee39f8dc79dc21a0159646aaa9014d430c662d6ffeb1bfe6bb28a4f9003e
-SHA1: 82fb5f1d0d6668bb89223d165fe13fabd3a883ac
-MD5sum: 704cd06259abae6c1855b6d47d75a392
+Filename: pool/main/p/ptv3/ptv3_3.11.8-1_all.deb
+Size: 778928
+SHA256: 6ddf7a2216fdbeff3c93eb141509d65560df8f1ae9d3a5e89a688ba6ad49b6d1
+SHA1: a9973b7ba30f5058a1c9b76fe49743455a98b118
+MD5sum: 92723f38cd9370a1b63279ff1386cc32
 Description: Original PazzleTV3 server packed to deb systemd service
  Try carefully store settings and security
  http://xbmc.ru/forum/showthread.php?t=16628
@@ -286,23 +286,4 @@ Description: Disk encryption with strong security based on TrueCrypt.
 Maintainer: VeraCrypt Team <veracrypt@idrix.fr>
 Version: 1.24.7-1
 Installed-Size: 7186
-
-Package: wol-service
-Version: 0.1-1
-Architecture: all
-Maintainer: Partizand <partizand@gmail.com>
-Installed-Size: 13
-Depends: ethtool
-Priority: optional
-Section: misc
-Filename: pool/main/w/wol-service/wol-service_0.1-1_all.deb
-Size: 2408
-SHA256: 49817553b85f8885324687e25f34d38f9b47083d828dc96692abd9033c45c3ff
-SHA1: 9aef4ccc005a880eeb352beb2977ad4d8ab63bae
-MD5sum: 7f2ef731eb1b52dbd8b803e563d964b3
-Description: Service to enable Wake-on-LAN on interface. From Arch wiki
- For activate Wake-on-LAN on interface, start this service by starting wol@interface-name.service
- For example enp3s0 interface use wol@enp3s0.service:
- sudo systemctl enable wol@enp3s0.service
- sudo systemctl start wol@enp3s0.service
 

@@ -4,7 +4,7 @@ Version: 10.x
 Origin: Andrey repository
 Label: Andrey debian buster repo
 Description: Andrey personal repository debian buster
-Architectures: amd64 arm arm64
+Architectures: amd64 armhf source
 Components: main
 SignWith: default
 

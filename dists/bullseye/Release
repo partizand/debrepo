@@ -3,7 +3,7 @@ Label: Andrey debian bullseye repo
 Suite: testing
 Codename: bullseye
 Version: 11.x
-Date: Mon, 18 Nov 2019 12:42:55 UTC
+Date: Tue, 19 Nov 2019 10:29:38 UTC
 Architectures: amd64 arm arm64
 Components: main
 Description: Andrey personal repository debian bullseye

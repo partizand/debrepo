@@ -3,37 +3,37 @@ Label: Andrey debian buster repo
 Suite: stable
 Codename: buster
 Version: 10.x
-Date: Mon, 18 Nov 2019 12:43:17 UTC
-Architectures: amd64 arm arm64
+Date: Tue, 19 Nov 2019 11:00:58 UTC
+Architectures: amd64 armhf
 Components: main
 Description: Andrey personal repository debian buster
 MD5Sum:
- 8e5f64fcd6de05959603e3b5c767d077 12079 main/binary-amd64/Packages
- 27e280621f00cb4c5a4d5f840d97fd1a 4443 main/binary-amd64/Packages.gz
+ 28269842be04c6ebc71fc9e2462e6421 11372 main/binary-amd64/Packages
+ 4877fa344539a1b5897b528a26c79689 4192 main/binary-amd64/Packages.gz
  21a73c7790ff65ee2db17c4c07201a02 179 main/binary-amd64/Release
- eb2edb3aed34f7de8418356951597350 3557 main/binary-arm/Packages
- 31694bf41be0fdb0537e10bf801ac165 1672 main/binary-arm/Packages.gz
- 19b5893e4f872a7c2edcfefac2ce1ad6 177 main/binary-arm/Release
- eb2edb3aed34f7de8418356951597350 3557 main/binary-arm64/Packages
- 31694bf41be0fdb0537e10bf801ac165 1672 main/binary-arm64/Packages.gz
- 17d167579a8cc0e558dabe3b8755af9a 179 main/binary-arm64/Release
+ 70563428da7a69fd9b2dd989f9f46877 2850 main/binary-armhf/Packages
+ c0faf1e8b93c4bc91ad7c0e8a1062cb8 1420 main/binary-armhf/Packages.gz
+ 7fa0ff0852e89150b79f40a9e26f9c57 179 main/binary-armhf/Release
+ 9a638c956e7dc5cbf5d5129e070ebdbf 1023 main/source/Sources
+ 873e0d972abe43b8b81d2102c9942552 580 main/source/Sources.gz
+ 52d51c96730cb946618bf0bfaaa15fa1 180 main/source/Release
 SHA1:
- 92c96835b173b7d873711c83d8fe27a1de5e34a2 12079 main/binary-amd64/Packages
- 20bfb3e191d72ce7239f59cef8440c1e562fb3d8 4443 main/binary-amd64/Packages.gz
+ 0a5e6cf5aee8ae54a67d5a223b468f4906f571a3 11372 main/binary-amd64/Packages
+ 3cbedcc44f4aa25bacb3f76f69b649ee2e9e998b 4192 main/binary-amd64/Packages.gz
  03c7f7cf972ef0790e51a5d08344f8026686bff2 179 main/binary-amd64/Release
- 00e9327678adb7a0e906f11fe8c7bc27c7a7068c 3557 main/binary-arm/Packages
- 70d6917ae1b48a78cac257d783f14a65d918fc23 1672 main/binary-arm/Packages.gz
- bed98779e186d92bf1cc6b4b4f7b05123a2af8fb 177 main/binary-arm/Release
- 00e9327678adb7a0e906f11fe8c7bc27c7a7068c 3557 main/binary-arm64/Packages
- 70d6917ae1b48a78cac257d783f14a65d918fc23 1672 main/binary-arm64/Packages.gz
- 02134c1d27528a9b0911f18abc3cbbe268416f7b 179 main/binary-arm64/Release
+ db7cc783158ddfcaac356b9765916c8f45252b31 2850 main/binary-armhf/Packages
+ a5885f3983e9292cdd667b2ce70f42d84cb43fb8 1420 main/binary-armhf/Packages.gz
+ b243d3e1b2fa72291dfe6e2ca3f9a4f64ab76843 179 main/binary-armhf/Release
+ 42af6c5bd94acd9ae406b35e633068527a575f6c 1023 main/source/Sources
+ 055b0b35499684ce6b2686f294fd3c4f52578ff1 580 main/source/Sources.gz
+ 011237d787421196ecebdc04b0e592cb4c968064 180 main/source/Release
 SHA256:
- 94ffaf10c49f0c41ac6a4e8cafb42a02045f90777318e88449f59c09a6cad2de 12079 main/binary-amd64/Packages
- 126f88ddb66e6d3b5d5cbb44f80bf7de09ea715e23acc756eaec27487f4840ed 4443 main/binary-amd64/Packages.gz
+ c24799157f4f7c9a7402492af5af239d490bf0073d3cbd3b9cda16db9fc75ddb 11372 main/binary-amd64/Packages
+ 7a843784886726f6f06dcd32cc80e0f247018731f0fe57a176b0d1cfee809fb1 4192 main/binary-amd64/Packages.gz
  dd02e12c7fb2e473c5a770c7c397ed0036ec523ae6fdb5522737ab42bd894398 179 main/binary-amd64/Release
- e3b0b3827eaa7773b434996e8fda2d3efad8431581bc8a2dfcfe0579cf137329 3557 main/binary-arm/Packages
- f82bc12f07dd7f56ac41fa42dab9322b4fdbc54a861e86e0407f6588f409ed9b 1672 main/binary-arm/Packages.gz
- dc6ba70119925651f1c2bfc94b64e5668c690f9c244a110b95d1cf47b787c109 177 main/binary-arm/Release
- e3b0b3827eaa7773b434996e8fda2d3efad8431581bc8a2dfcfe0579cf137329 3557 main/binary-arm64/Packages
- f82bc12f07dd7f56ac41fa42dab9322b4fdbc54a861e86e0407f6588f409ed9b 1672 main/binary-arm64/Packages.gz
- 364b98b01ef98737ab807a4000a22f0c3910a7094a7b13f140088f1659c42c80 179 main/binary-arm64/Release
+ fe8951a851369171d88929e96043712d3d3561934e07d9f71c9b8da06ac765ec 2850 main/binary-armhf/Packages
+ 428f9d2eb164c9e8f54c5d45fc02601dd080139d42c0d3dea571e05716845d08 1420 main/binary-armhf/Packages.gz
+ b32dfd6a1a3e3e40fb7b0db82b6cb14a340535ce7293118147c9b72b8f6a5940 179 main/binary-armhf/Release
+ b2f0f6ea155f0eae503ef941293262178e0de831e47f9ab12814ec651a893c85 1023 main/source/Sources
+ 550e389afa83636d336fd1f6e4d6656eedd95da11feef7c1c9f3a670310b3181 580 main/source/Sources.gz
+ bc5e88af974e1dbed211792375a59a9a0ace1e78050e67f2742169579ef41ff8 180 main/source/Release
