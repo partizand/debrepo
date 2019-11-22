@@ -1,6 +1,10 @@
 Личный репозиторий
 ==================
 
+Ссылка на публичный ключ
+
+https://github.com/partizand/debrepo/raw/master/partizandpub.asc.gpg
+
 Добавление в источники
 ----------------------
 
