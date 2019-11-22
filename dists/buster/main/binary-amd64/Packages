@@ -177,21 +177,22 @@ Description: folder synchronization with OneDrive
  the command line client specialising in synchronizing with OneDrive cloud
  storage.
 
-Package: ptv3
-Version: 3.11.7-1
+Package: ptv-serv
+Version: 3.0.11.9-1
 Architecture: all
 Maintainer: Partizand <partizand@gmail.com>
-Installed-Size: 3959
+Installed-Size: 4001
 Depends: python2
+Conflicts: ptv3
 Priority: optional
 Section: net
-Filename: pool/main/p/ptv3/ptv3_3.11.7-1_all.deb
-Size: 779092
-SHA256: afb35ae043a0e7163ab6c7854833fa50baa2ba9ab3348eaa4f2dcf2030adeb57
-SHA1: dc1357f3bc27d2875c6680acb4d200fef6b61aec
-MD5sum: c8d9f9f8e390c83bfeef128409d5f5d9
-Description: Original PazzleTV3 server packed to deb systemd service
- Try carefully store settings and security
+Filename: pool/main/p/ptv-serv/ptv-serv_3.0.11.9-1_all.deb
+Size: 782308
+SHA256: e28696e35b2eaea5cc804087c0bad4928229b0c5f93146878febc41881f67996
+SHA1: 30d22e5d8dbef5f867c088f877787a8bd58632fc
+MD5sum: 3405bdf6fdc4b1e43331fb8da4820a1a
+Description: Original PuzzleTV 3 server packed to deb systemd service
+ Carefully store settings and security
  http://xbmc.ru/forum/showthread.php?t=16628
 
 Package: usb-vhci-hcd-dev

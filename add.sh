@@ -7,7 +7,7 @@ codename="buster"
 
 package_type=`kdialog --radiolist "Select package type:" deb "deb" on source "source" off`
 
-if [ package_type = "deb" ]; then
+if [ $package_type = "deb" ]; then
     # Ask deb file
     debfile=`kdialog --getopenfilename . "Deb files (*.deb)" `
     if [ -z $debfile ] ; then 
@@ -19,7 +19,7 @@ if [ package_type = "deb" ]; then
     # Add deb file
     reprepro -b ${BASEDIR} -C main includedeb $codename "$debfile"
 
-elif [ package_type = "source" ]; then
+elif [ $package_type = "source" ]; then
     # Ask change file
     changefile=`kdialog --getopenfilename . "Change files (*.changes)" `
     if [ -z $changefile ] ; then 
