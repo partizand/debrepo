@@ -1,42 +1,43 @@
 Личный репозиторий
 ==================
 
-Ссылка на публичный ключ
+Добавление публичного ключа
+---------------------------
 
-https://github.com/partizand/debrepo/raw/master/partizandpub.asc.gpg
+```
+wget https://github.com/partizand/debrepo/raw/master/partizandpub.asc.gpg
+sudo mv ./partizandpub.asc.gpg /etc/apt/trusted.gpg.d/
+```
 
 Добавление в источники
 ----------------------
 
 ```
-sudo echo "deb [trusted=yes] http://partizand.github.io/debrepo/ buster main" /etc/apt/sources.list.d/andrey.list
+sudo echo "deb http://partizand.github.io/debrepo/ buster main" /etc/apt/sources.list.d/partizand.list
 sudo apt update
 ```
 
-[Список пакетов](packagelist.txt)
+[Список пакетов buster](buster-list.txt)
 
 Операции с пакетами
 -------------------
 
-Добавление пакета
+Добавление deb пакета
 
 ```
-reprepro -C main includedeb andrey путь_к_пакету.deb
+reprepro includedeb buster путь_к_пакету.deb
+```
+
+Добавление source пакета
+
+```
+reprepro includedeb buster путь_к_файлу.changes
 ```
 
 Удаление пакета
 
 ```
-reprepro -C main remove main имя_пакета
-```
-
-Клонирование
-------------
-
-```
-cd ~/prog
-git clone git@github.com:partizand/debrepo.git
-cd debrepo
+reprepro remove buster имя_пакета
 ```
 
 Пересоздание репозитория
