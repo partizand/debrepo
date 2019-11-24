@@ -195,6 +195,42 @@ Description: Puzzle TV server packed to deb systemd service
  Carefully store settings and security
  http://xbmc.ru/forum/showthread.php?t=16628
 
+Package: unison-service
+Version: 0.1-1
+Architecture: amd64
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 640
+Depends: unison, libc6 (>= 2.15)
+Priority: optional
+Section: net
+Filename: pool/main/u/unison-service/unison-service_0.1-1_amd64.deb
+Size: 187868
+SHA256: 2092bbc1636c13899d89d8c2a79604df44432d84de4d785c007482eb21af5722
+SHA1: 2cf66baae970abb4fec88e3165a96daaac97e320
+MD5sum: b02c2d539c83f657431b9403d308e747
+Description: Unison systemd service
+ Add unison-fsmonitor. Watch changes in folders
+ https://www.cis.upenn.edu/~bcpierce/unison/
+ https://gist.github.com/thunfischbrot/0b6a21a84f166c4fa74fc5df4a470b17
+
+Package: unison-service-dbgsym
+Source: unison-service
+Version: 0.1-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 223
+Depends: unison-service (= 0.1-1)
+Priority: optional
+Section: debug
+Filename: pool/main/u/unison-service/unison-service-dbgsym_0.1-1_amd64.deb
+Size: 47808
+SHA256: 5c0c47add0ab2b8770c3350af061c940a0476504621ebcf22e59978f42fc7d2b
+SHA1: 4e37f0e4a0ff97b5ce5dcbc9badea228808ee793
+MD5sum: d47829819db2877bc1ae26a437e60bf2
+Description: debug symbols for unison-service
+Build-Ids: 8eb48b1f32d9f67cfebb7efa600a1fd45e5ce37a
+
 Package: usb-vhci-hcd-dev
 Source: usb-vhci-hcd
 Version: 1.15.1-1

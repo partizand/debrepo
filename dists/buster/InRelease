@@ -6,51 +6,51 @@ Label: Andrey debian buster repo
 Suite: stable
 Codename: buster
 Version: 10.x
-Date: Fri, 22 Nov 2019 11:14:07 UTC
+Date: Sun, 24 Nov 2019 15:40:43 UTC
 Architectures: amd64 armhf
 Components: main
 Description: Andrey personal repository debian buster
 MD5Sum:
- 29552b21fdf75ae5335005e3a62665b0 11397 main/binary-amd64/Packages
- be11904d08862f67e0e76a567cb48529 4193 main/binary-amd64/Packages.gz
+ ebf1b5c24cef66501ca53195511a4256 12631 main/binary-amd64/Packages
+ dcaa6d8d27db8d39ceb73f5bfb65f0c4 4630 main/binary-amd64/Packages.gz
  21a73c7790ff65ee2db17c4c07201a02 179 main/binary-amd64/Release
  193583ca86ec1f1ac204903519b191d8 2875 main/binary-armhf/Packages
  8b6f3b79385546e6a2bbc30393753493 1418 main/binary-armhf/Packages.gz
  7fa0ff0852e89150b79f40a9e26f9c57 179 main/binary-armhf/Release
- 13e73bf429cc6958b7f4e5f5b5c02254 1121 main/source/Sources
- b621b8391d9326b2dcbce9777ae5a7e1 583 main/source/Sources.gz
+ 976d353d29b8aa2b6ef755325578c599 2252 main/source/Sources
+ 62a3ffdcb8ab76a1b5b5417e0077c2c8 939 main/source/Sources.gz
  52d51c96730cb946618bf0bfaaa15fa1 180 main/source/Release
 SHA1:
- 4eb40165194d1ecd649ce7010fe1102944b2ff26 11397 main/binary-amd64/Packages
- 20020cba9e9f0362aa98b1c2bd04010c08f19aea 4193 main/binary-amd64/Packages.gz
+ baad5c0fa3dd8929702f684ebd600f59b28d377e 12631 main/binary-amd64/Packages
+ eb4c06f5a296b42badf590a293f853742738f613 4630 main/binary-amd64/Packages.gz
  03c7f7cf972ef0790e51a5d08344f8026686bff2 179 main/binary-amd64/Release
  4b21c90cfd9dbadea3708f6a9c9866bc83af560d 2875 main/binary-armhf/Packages
  b22b77d90f9de272b8cc30c2ff5a8d8605c05a7c 1418 main/binary-armhf/Packages.gz
  b243d3e1b2fa72291dfe6e2ca3f9a4f64ab76843 179 main/binary-armhf/Release
- 6e8815eeba2b39dff152cab36d870a112d8a6c80 1121 main/source/Sources
- 1421e8ecae128ef8bb67bc086e05c75bfce1a972 583 main/source/Sources.gz
+ db4233984b43aee17a58d1e88d0533518493d90c 2252 main/source/Sources
+ 04ec0efa2ceadc4c826ca638d01b1a4b93ba21da 939 main/source/Sources.gz
  011237d787421196ecebdc04b0e592cb4c968064 180 main/source/Release
 SHA256:
- 0355931fb90d6dfd0576a63f208b2b992ec0d8b000fbc8d2330eb45d7f387a8e 11397 main/binary-amd64/Packages
- 82619725a474e2d29787b97206833fbde55a90997f16ebee11f5263dbf449247 4193 main/binary-amd64/Packages.gz
+ 4c4b0fd0591ffaa236604f3b432276a43758e58d01784f338abd1d279fc3536c 12631 main/binary-amd64/Packages
+ ab62d10eeba2471c17ecd219218ae13328b7d58c2ad171af770c339f2c56cc85 4630 main/binary-amd64/Packages.gz
  dd02e12c7fb2e473c5a770c7c397ed0036ec523ae6fdb5522737ab42bd894398 179 main/binary-amd64/Release
  3b4a80011396b45aabb7db658d178d5221bf4219ed023787b770b08170881f62 2875 main/binary-armhf/Packages
  088623c11523d784dacc92da04991c93af94689d855139eaadc868cf93349948 1418 main/binary-armhf/Packages.gz
  b32dfd6a1a3e3e40fb7b0db82b6cb14a340535ce7293118147c9b72b8f6a5940 179 main/binary-armhf/Release
- df59326537182cf48bd5178b911a9d8325ff0202871e849470c6d5006cd2e85c 1121 main/source/Sources
- 89babf879416df831a379ce746f46e7a29a1a8ec2e1bdcabba7245941cd139b5 583 main/source/Sources.gz
+ 0d66c41ab8cfb4eb616c77d7193ffbd96a3a30510c18b6e000579a93b44ebbcb 2252 main/source/Sources
+ ccbae0bfb5b289ca0ba7066d86cb38f62e74d75ab645b0e19376fb0ef34cd71c 939 main/source/Sources.gz
  bc5e88af974e1dbed211792375a59a9a0ace1e78050e67f2742169579ef41ff8 180 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEcJux9PCqPJ8A74OoJfoiS5Q7QzwFAl3Xwv8ACgkQJfoiS5Q7
-Qzy/0AwAxQ34GhfY7qgexDcIzD4fkV+TVa6bM/DlKqQ5JSqQ+uvF9MBxqyeF4Yzk
-zcCwzcCZeyL5NGu8qtt2UAGDi1ytT1dgbGDLYFF7meaFYpWWaAIPY/rtz3z128pS
-5ECZtuHSPP4NEKmy+NTYcz22Zwu0irF3yCAN6XpHNIOuplhhz41r+/geWsROVT6L
-MY7bsX4ENW3tnF3Jhl8cWPDURj2hJjj3vVPxMR/SKpGSTvPC8Iizobla99uTRvnl
-1bTcOUCDGZ+NyXSZbQUBhmpkjXGz8A57Rr93XgvTC1wsMzemM4OtgPcn1UJ15vgv
-YgwWqRYvzYeSvCrdbSa5Sc6H1vomT1A3IvtqVYlVFr24Zj+WnbGuNSlF2ATlQ2Qx
-oPQE2aH1Ui3NYirSh2odcUNdopYoG8BQyq0POOZR3WzMqggIVKJKOag7HBrucSxy
-pfoxoZAWqgRju/+8NKcYnqszPRZwaE+iLp4vPn24Q6v5yTjKnMpLIl0TUf0A96Xu
-xzyn+jX7
-=Bq+Z
+iQGzBAEBCgAdFiEEcJux9PCqPJ8A74OoJfoiS5Q7QzwFAl3apHwACgkQJfoiS5Q7
+QzyBxAv/fmk55hPmIrmxjv6mw+xkwm5FGtHsxEhBGx2DnFcLGzFTehOYxdIyQiCb
+S3dJVhTm86ykAQJGpTLaA58jOiSpQ7CT/CR7izD+Tvzx51m5k3M89CuCCkBMpuMm
+3NtIiVjbBe480za5L1BYNQwzLOCh7n+T5b3tBu45YYIsBp+JcDbiLePlh0Nw37GX
+C44VUXKMmcuyUquLQGFgGac580x4xx8V5iiBXr5f9eq/XkGUaU9vjpJ0CTHVhcyZ
+YI5rJxoagaEnidDOrfsgq7nEDFGAueKXRQHJL9APbGcBqLKTco6IyUb3Yv+0KqPa
+1mc+SkqSghc5pcFnWrEt56wi2EJxnKAaAyqvYqxyRNhFqq2FtaP7GQ7mFHv6+89h
+Mzti94umvR1bmNTbLVEHnN2a25JtNPK98VqdEWBIEE0sGUARjjDkvnSaGQPbcmzX
+VCJ0yCmiSN0BqfKZeizL23UD+pI3AMMN+bjSf1ZA9D6L285t5xxs9JL3RJoFXiKI
+joyx08Wd
+=7hE5
 -----END PGP SIGNATURE-----
