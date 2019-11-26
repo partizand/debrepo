@@ -7,7 +7,7 @@ buster|main|amd64: libfinance-quote-moex-perl 0.3-1
 buster|main|amd64: libusb-vhci 0.8-2
 buster|main|amd64: libusb-vhci-dev 0.8-2
 buster|main|amd64: onedrive 2.3.11-1
-buster|main|amd64: ptv-server 3.0.11.9-1
+buster|main|amd64: ptv-server 3.0.12.0-1
 buster|main|amd64: unison-service 0.1-1
 buster|main|amd64: unison-service-dbgsym 0.1-1
 buster|main|amd64: usb-vhci-hcd-dev 1.15.1-1
@@ -18,6 +18,6 @@ buster|main|amd64: veracrypt 1.24.7-1
 buster|main|armhf: autoshutdown 0.9.9.10-2
 buster|main|armhf: keepass2-ru 2.43-1
 buster|main|armhf: libfinance-quote-moex-perl 0.3-1
-buster|main|armhf: ptv-server 3.0.11.9-1
-buster|main|source: ptv-server 3.0.11.9-1
+buster|main|armhf: ptv-server 3.0.12.0-1
+buster|main|source: ptv-server 3.0.12.0-1
 buster|main|source: unison-service 0.1-1
