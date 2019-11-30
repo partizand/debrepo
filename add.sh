@@ -9,25 +9,25 @@ package_type=`kdialog --radiolist "Select package type:" deb "deb" on source "so
 
 if [ $package_type = "deb" ]; then
     # Ask deb file
-    debfile=`kdialog --getopenfilename . "Deb files (*.deb)" `
-    if [ -z $debfile ] ; then 
+    addfile=`kdialog --getopenfilename . "Deb files (*.deb)" `
+    if [ -z $addfile ] ; then 
         echo "User debfile cancelled"
         exit 1
     fi
     
-    echo Adding $debfile ...
+    echo Adding $addfile ...
     # Add deb file
-    reprepro -b ${BASEDIR} -C main includedeb $codename "$debfile"
+    reprepro -b ${BASEDIR} -C main includedeb $codename "$addfile"
 
 elif [ $package_type = "source" ]; then
     # Ask change file
-    changefile=`kdialog --getopenfilename . "Change files (*.changes)" `
-    if [ -z $changefile ] ; then 
+    addfile=`kdialog --getopenfilename . "Change files (*.changes)" `
+    if [ -z $addfile ] ; then 
         echo "User debfile cancelled"
         exit 1
     fi
     # Add change file
-    reprepro -b ${BASEDIR} -C main include $codename "$changefile"
+    reprepro -b ${BASEDIR} -C main include $codename "$addfile"
 else 
     echo "User cancelled"
     exit 1
@@ -78,7 +78,7 @@ fi;
 if [ commit ] ; then
     # git commit
     cd ${BASEDIR}
-    filename=`basename $debfile`
+    filename=`basename $addfile`
     # git add files
     git add --all
     git commit -a -m "Add package file ${filename} to ${codename}"
