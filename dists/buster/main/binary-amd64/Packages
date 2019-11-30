@@ -196,18 +196,18 @@ Description: Puzzle TV server packed to deb systemd service
  http://xbmc.ru/forum/showthread.php?t=16628
 
 Package: unison-service
-Version: 0.1-1
+Version: 0.2-1
 Architecture: amd64
 Maintainer: Partizand <partizand@gmail.com>
-Installed-Size: 640
+Installed-Size: 645
 Depends: unison, libc6 (>= 2.15)
 Priority: optional
 Section: net
-Filename: pool/main/u/unison-service/unison-service_0.1-1_amd64.deb
-Size: 187868
-SHA256: 2092bbc1636c13899d89d8c2a79604df44432d84de4d785c007482eb21af5722
-SHA1: 2cf66baae970abb4fec88e3165a96daaac97e320
-MD5sum: b02c2d539c83f657431b9403d308e747
+Filename: pool/main/u/unison-service/unison-service_0.2-1_amd64.deb
+Size: 188608
+SHA256: 5d70ae33dec5a89b02b3aa5eb96051f875797c8de40bfca1d18e3c56610d31da
+SHA1: dfa5e7e7d835bd21704d186eb3860675a98cce87
+MD5sum: 9559c3e8b6cd6b429766858dd08c7831
 Description: Unison systemd service
  Add unison-fsmonitor. Watch changes in folders
  https://www.cis.upenn.edu/~bcpierce/unison/
