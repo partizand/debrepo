@@ -256,19 +256,19 @@ Description: folder synchronization with OneDrive
  storage.
 
 Package: ptv-server
-Version: 3.0.12.9-1
+Version: 3.0.13.2-1
 Architecture: all
 Maintainer: Partizand <partizand@gmail.com>
-Installed-Size: 3900
+Installed-Size: 4012
 Depends: python2
 Conflicts: ptv3
 Priority: optional
 Section: net
-Filename: pool/main/p/ptv-server/ptv-server_3.0.12.9-1_all.deb
-Size: 643084
-SHA256: 51cef5d9f5fb115a25cdc781617bc5806d6bc7f5567b4ec7de29bae3ce39b635
-SHA1: 803fe0509198eb63a6a1d19dc1161b161886dfb0
-MD5sum: 210a5eb48fdfa10ee0ec78b45029553d
+Filename: pool/main/p/ptv-server/ptv-server_3.0.13.2-1_all.deb
+Size: 652988
+SHA256: f6e1f66356330f82f7d2ea887ee2b3f2e2b28fd2e367a36914af4b82aa32619a
+SHA1: c380bfe69405157fe870f2d62c2c3d7a3ae3e897
+MD5sum: d081257a9e35dde8b1a8dcbbbab45ec3
 Description: Puzzle TV server packed to deb systemd service
  Carefully store settings and security
  http://xbmc.ru/forum/showthread.php?t=16628
