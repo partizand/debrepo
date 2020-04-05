@@ -64,19 +64,19 @@ Description: (no short description found)
  This description was automagically extracted from the module by dh-make-perl.
 
 Package: ptv-server
-Version: 3.0.14.7-2
+Version: 3.0.14.7-6
 Architecture: all
 Maintainer: Partizand <partizand@gmail.com>
-Installed-Size: 3277
+Installed-Size: 3282
 Depends: python2
 Conflicts: ptv3
 Priority: optional
 Section: net
-Filename: pool/main/p/ptv-server/ptv-server_3.0.14.7-2_all.deb
-Size: 547504
-SHA256: 148b13195d73d8bf04db24da53c293bc418e97935bb676f7166952d11a02ba0a
-SHA1: 2e017e885e21cac2c71f038bc7df49262bdf1f6e
-MD5sum: dc7e44daab088958e32c3f0f208c7e3e
+Filename: pool/main/p/ptv-server/ptv-server_3.0.14.7-6_all.deb
+Size: 548552
+SHA256: 841d740d6f00d4fe432f43989e501b526621b5fddae9b7a5d14b45a079d3df64
+SHA1: 3b3de809ef1a501a9a6a6826c9b8a3f55d0ca82a
+MD5sum: 0004a1908223660e6e9125cbfce0a4fb
 Description: Puzzle TV server packed to deb systemd service
  Carefully store settings and security
  http://xbmc.ru/forum/showthread.php?t=16628
