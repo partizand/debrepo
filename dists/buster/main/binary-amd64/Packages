@@ -237,23 +237,41 @@ Description: Web content engine library for GTK+
  This is the library for embedding in GTK+ applications.
 
 Package: onedrive
-Version: 2.3.11-1
+Version: 2.4.0-1
 Architecture: amd64
 Maintainer: Partizand <partizand@gmail.com>
-Installed-Size: 1609
+Installed-Size: 1681
 Depends: libnotify4 (>= 0.7.3), libc6 (>= 2.14), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libphobos2-ldc-shared82 (>= 1:1.12.0), libsqlite3-0 (>= 3.7.14)
 Homepage: https://github.com/abraunegg/onedrive
 Priority: optional
 Section: net
-Filename: pool/main/o/onedrive/onedrive_2.3.11-1_amd64.deb
-Size: 406684
-SHA256: bbe458590ebaa3e4af70a78a86b0434274e78a946dbc807d1d1b9ebb9835b6e5
-SHA1: c5d1f39d975054fef795d34c689d753172ce4aac
-MD5sum: 3d3ecfa12ecadc796c4eee4fef7f28da
+Filename: pool/main/o/onedrive/onedrive_2.4.0-1_amd64.deb
+Size: 423808
+SHA256: 847b74bfaf7dbbeb2bc32f102125aa77af6e28a98e672734a8d2f4d46b2772ba
+SHA1: 03fd63cea89cf17d4f7004c157592f4b586737b1
+MD5sum: 60e39e9db5929ba5c1c6edf649daf73f
 Description: folder synchronization with OneDrive
  OneDrive is the cloud storage system of Microsoft. This package provides
  the command line client specialising in synchronizing with OneDrive cloud
  storage.
+
+Package: onedrive-dbgsym
+Source: onedrive
+Version: 2.4.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 1375
+Depends: onedrive (= 2.4.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/o/onedrive/onedrive-dbgsym_2.4.0-1_amd64.deb
+Size: 972164
+SHA256: d260cc775bdd0e185f766211b1a5ab9e1b2f066385fc9ccbd5e46fa3ceb0de9e
+SHA1: 3dd3a68d49b6b3dba1d2adb15bddfbb5b5c1f32f
+MD5sum: 83bbedc987b0c279a49ee743c7fe3ec6
+Description: debug symbols for onedrive
+Build-Ids: a48a291088f48ef536a7ad683fce65c55330bb49
 
 Package: ptv-server
 Version: 3.0.14.7-6
