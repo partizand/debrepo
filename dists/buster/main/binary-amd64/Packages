@@ -67,7 +67,7 @@ Description: Translate russian file for keepass2
 
 Package: libfaudio0
 Source: faudio
-Version: 19.11-0~buster
+Version: 20.01-0~buster
 Architecture: amd64
 Maintainer: Sveinar Søpler <cybermax@dexter.no>
 Installed-Size: 388
@@ -78,11 +78,11 @@ Multi-Arch: same
 Homepage: https://github.com/FNA-XNA/FAudio
 Priority: optional
 Section: libs
-Filename: pool/main/f/faudio/libfaudio0_19.11-0~buster_amd64.deb
-Size: 133272
-SHA256: 7a010719cf916aacfcda5eed391f97bef8246c4a513128b4236323f1342347c3
-SHA1: 2ee18e8b236020009a4b3a0f84766f9793851ff9
-MD5sum: 0014972f09fb7872676fa62b7fb9c592
+Filename: pool/main/f/faudio/libfaudio0_20.01-0~buster_amd64.deb
+Size: 133276
+SHA256: 9827c0b71ee3fea12c89e0ddd850151092ff4ebe35de070f5bf07e2014d10d09
+SHA1: 588590f8b3ef184030f7dbcf1f2a525e2c82d009
+MD5sum: 0e9b84f8890071e8d2e8001ca49f403f
 Description: XAudio sound processing reimplementation - library
  FAudio is a sound processing library that aims to support fully accurate
  DirectX audio capabilities including XAudio2, X3DAudio, XAPO, and XACT3.

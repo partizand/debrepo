@@ -2,7 +2,7 @@ buster|main|amd64: acestream 3.1.49-2
 buster|main|amd64: aksusbd 7.100-1
 buster|main|amd64: autoshutdown 0.9.9.10-2
 buster|main|amd64: keepass2-ru 2.43-1
-buster|main|amd64: libfaudio0 19.11-0~buster
+buster|main|amd64: libfaudio0 20.01-0~buster
 buster|main|amd64: libfinance-quote-moex-perl 0.3-1
 buster|main|amd64: libicu57 57.1-6+deb9u3
 buster|main|amd64: libjavascriptcoregtk-3.0-0 2.4.11-3
