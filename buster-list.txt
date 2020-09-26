@@ -1,6 +1,6 @@
 buster|main|amd64: acestream 3.1.49-2
 buster|main|amd64: aksusbd 7.100-1
-buster|main|amd64: autoshutdown 0.9.9.10-2
+buster|main|amd64: autoshutdown 0.9.9.10a-1
 buster|main|amd64: keepass2-ru 2.43-1
 buster|main|amd64: libfaudio0 20.01-0~buster
 buster|main|amd64: libfinance-quote-moex-perl 0.3-1
@@ -19,10 +19,11 @@ buster|main|amd64: usb-vhci-hcd-dkms 1.15.1-1
 buster|main|amd64: usb-vhci-hcd-modules-4.19.0-6-amd64 1.15.1
 buster|main|amd64: usbhasp 0.1-2
 buster|main|amd64: veracrypt 1.24.7-1
-buster|main|armhf: autoshutdown 0.9.9.10-2
+buster|main|armhf: autoshutdown 0.9.9.10a-1
 buster|main|armhf: keepass2-ru 2.43-1
 buster|main|armhf: libfinance-quote-moex-perl 0.3-1
 buster|main|armhf: ptv-server 3.0.14.7-6
+buster|main|source: autoshutdown 0.9.9.10a-1
 buster|main|source: onedrive 2.4.0-1
 buster|main|source: ptv-server 3.0.14.7-6
 buster|main|source: unison-service 0.2-1

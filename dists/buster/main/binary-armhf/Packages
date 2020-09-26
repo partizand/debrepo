@@ -1,18 +1,18 @@
 Package: autoshutdown
-Version: 0.9.9.10-2
+Version: 0.9.9.10a-1
 Architecture: all
 Maintainer: Partizand <partizand@gmail.com>
-Installed-Size: 110
+Installed-Size: 113
 Depends: fping, pm-utils, sysstat, net-tools
 Conflicts: openmediavault-autoshutdown
 Homepage: https://github.com/OpenMediaVault-Plugin-Developers/openmediavault-autoshutdown
 Priority: optional
 Section: utils
-Filename: pool/main/a/autoshutdown/autoshutdown_0.9.9.10-2_all.deb
-Size: 24448
-SHA256: 6805cb20e821b7448ba359d6c21397c45ceefd32958a504764810ad12746f868
-SHA1: 80b0832cd4e6aca1926a52ab485a9b2716b82318
-MD5sum: 18ef2e62907b060704a3250331657d18
+Filename: pool/main/a/autoshutdown/autoshutdown_0.9.9.10a-1_all.deb
+Size: 25448
+SHA256: 4ec3c87560d18350545e509e64d41b77bda428ec0a2b67311a613fe64625ed5c
+SHA1: 670b189c6daf80a1765bdcfd2478dec2ec321c80
+MD5sum: 0da4928c8964027f1db30353052b4ea9
 Description: bash systemd daemon to shutdown host by inactivity.
  Allow system to be automatically shutdown
  based on use rather than a specified time.
