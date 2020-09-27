@@ -1,5 +1,5 @@
 Package: autoshutdown
-Version: 0.9.9.10a-1
+Version: 0.9.9.10b-1
 Architecture: all
 Maintainer: Partizand <partizand@gmail.com>
 Installed-Size: 113
@@ -8,11 +8,11 @@ Conflicts: openmediavault-autoshutdown
 Homepage: https://github.com/OpenMediaVault-Plugin-Developers/openmediavault-autoshutdown
 Priority: optional
 Section: utils
-Filename: pool/main/a/autoshutdown/autoshutdown_0.9.9.10a-1_all.deb
-Size: 25448
-SHA256: 4ec3c87560d18350545e509e64d41b77bda428ec0a2b67311a613fe64625ed5c
-SHA1: 670b189c6daf80a1765bdcfd2478dec2ec321c80
-MD5sum: 0da4928c8964027f1db30353052b4ea9
+Filename: pool/main/a/autoshutdown/autoshutdown_0.9.9.10b-1_all.deb
+Size: 25228
+SHA256: 5797ee2246a79f4ad513270e9bbbc73e5fe73720ab57480b9bea01dda27148ed
+SHA1: ae4336f390c9dc05c273ba4841cfb2c17cb66c3c
+MD5sum: 15116c8742e952c90a6f0f5fceabed19
 Description: bash systemd daemon to shutdown host by inactivity.
  Allow system to be automatically shutdown
  based on use rather than a specified time.
@@ -80,4 +80,22 @@ MD5sum: 0004a1908223660e6e9125cbfce0a4fb
 Description: Puzzle TV server packed to deb systemd service
  Carefully store settings and security
  http://xbmc.ru/forum/showthread.php?t=16628
+
+Package: useridlecheck
+Version: 0.1-1
+Architecture: all
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 25
+Depends: init-system-helpers (>= 1.52)
+Priority: optional
+Section: unknown
+Filename: pool/main/u/useridlecheck/useridlecheck_0.1-1_all.deb
+Size: 4176
+SHA256: f0939d999508bc325ec9539e16d4d4c4bcaaf5b4fdedcaf56b38e459079d4d2f
+SHA1: 5f824d33e06fbe2c6cd62ca86bf8cd26cb91edaa
+MD5sum: fd67330a038e26ce57ab40f54740aae6
+Description: This script detect user activity.
+ Create flag file then user active and delete after idle.
+ Create as plugin for autoshutdown.
+ It is work in KDE only!
 
