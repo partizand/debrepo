@@ -31,20 +31,20 @@ Description: Sentinel LDK daemon
  Sentinel LDK runtime supporting Sentinel, Sentinel HL, HASP 4, and Hardlock keys.
 
 Package: autoshutdown
-Version: 0.9.9.10b-1
+Version: 0.9.9.10c-1
 Architecture: all
 Maintainer: Partizand <partizand@gmail.com>
-Installed-Size: 113
+Installed-Size: 112
 Depends: fping, pm-utils, sysstat, net-tools
 Conflicts: openmediavault-autoshutdown
 Homepage: https://github.com/OpenMediaVault-Plugin-Developers/openmediavault-autoshutdown
 Priority: optional
 Section: utils
-Filename: pool/main/a/autoshutdown/autoshutdown_0.9.9.10b-1_all.deb
+Filename: pool/main/a/autoshutdown/autoshutdown_0.9.9.10c-1_all.deb
 Size: 25228
-SHA256: 5797ee2246a79f4ad513270e9bbbc73e5fe73720ab57480b9bea01dda27148ed
-SHA1: ae4336f390c9dc05c273ba4841cfb2c17cb66c3c
-MD5sum: 15116c8742e952c90a6f0f5fceabed19
+SHA256: 996b2369cae8075aeb2adc68283aeee7bf37f3e467dcac2f0ef09c2ba81b8c06
+SHA1: cdb004de10dd5a11505cf515c490ce54fe919487
+MD5sum: dd66c550ca2096b9c0335e141ef8377e
 Description: bash systemd daemon to shutdown host by inactivity.
  Allow system to be automatically shutdown
  based on use rather than a specified time.
@@ -405,22 +405,22 @@ Description: Research of usb hasp protection in Linux environment
  https://github.com/sam88651/UsbHasp
 
 Package: useridlecheck
-Version: 0.1-1
+Version: 0.2-1
 Architecture: all
 Maintainer: Partizand <partizand@gmail.com>
-Installed-Size: 25
+Installed-Size: 27
 Depends: init-system-helpers (>= 1.52)
+Recommends: autoshutdown
 Priority: optional
 Section: unknown
-Filename: pool/main/u/useridlecheck/useridlecheck_0.1-1_all.deb
-Size: 4176
-SHA256: f0939d999508bc325ec9539e16d4d4c4bcaaf5b4fdedcaf56b38e459079d4d2f
-SHA1: 5f824d33e06fbe2c6cd62ca86bf8cd26cb91edaa
-MD5sum: fd67330a038e26ce57ab40f54740aae6
-Description: This script detect user activity.
+Filename: pool/main/u/useridlecheck/useridlecheck_0.2-1_all.deb
+Size: 4404
+SHA256: d024fb518f3fe9360ea61a5414df005cb8ec20d87e1349a89fbc2c5291b096e0
+SHA1: 4c679bbf554147afc102b5c1943268defbfed717
+MD5sum: 0e36e56351c0e4d2c120ab2b9a927af0
+Description: It`s autoshutdown plugin. This script daemon detect user activity in X.
  Create flag file then user active and delete after idle.
  Create as plugin for autoshutdown.
- It is work in KDE only!
 
 Package: veracrypt
 Architecture: amd64
