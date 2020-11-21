@@ -34,19 +34,19 @@ Description: Translate russian file for keepass2
  https://keepass.info/translations.html
 
 Package: libfinance-quote-moex-perl
-Version: 0.3-1
+Version: 0.4-1
 Architecture: all
-Maintainer: andrey <partizand@gmail.com>
-Installed-Size: 26
-Depends: perl, libfinance-quote-perl
+Maintainer: Andrey <partizand@gmail.com>
+Installed-Size: 27
+Depends: perl
 Homepage: https://metacpan.org/release/Finance-Quote-Moex
 Priority: optional
 Section: perl
-Filename: pool/main/libf/libfinance-quote-moex-perl/libfinance-quote-moex-perl_0.3-1_all.deb
-Size: 7328
-SHA256: 8dea55e1c950aa55fab392893fa551513fbe88023b58ea4b97dcceca40a9f502
-SHA1: 7c6245d42627ff9ca8034529c8d6beb74f89897f
-MD5sum: 21097974f83b84f9a6ed0821961b20e4
+Filename: pool/main/libf/libfinance-quote-moex-perl/libfinance-quote-moex-perl_0.4-1_all.deb
+Size: 7336
+SHA256: 0924799b450c6a22d6553fe2579ca7aa61761c38fe0e474e0146eed11e527c9b
+SHA1: 37d07668eb55f75b1974bf1c1e0963b477cf95fd
+MD5sum: f48935b220fe489a71f26fd1e98bd188
 Description: (no short description found)
  Finance::Quote::Moex fetches bond share quotes information from the Moex
  russian exchange http://www.moex.com and http://rbc.ru
