@@ -11,7 +11,7 @@ buster|main|amd64: libusb-vhci-dev 0.8-2
 buster|main|amd64: libwebkitgtk-3.0-0 2.4.11-3
 buster|main|amd64: onedrive 2.4.0-1
 buster|main|amd64: onedrive-dbgsym 2.4.0-1
-buster|main|amd64: ptv-server 3.0.14.7-6
+buster|main|amd64: ptv-server 3.0.15.8-1
 buster|main|amd64: unison-service 0.2-1
 buster|main|amd64: unison-service-dbgsym 0.1-1
 buster|main|amd64: usb-vhci-hcd-dev 1.15.1-1
@@ -24,11 +24,11 @@ buster|main|amd64: wol-service 0.1-1
 buster|main|armhf: autoshutdown 0.9.9.10c-1
 buster|main|armhf: keepass2-ru 2.43-1
 buster|main|armhf: libfinance-quote-moex-perl 0.4-1
-buster|main|armhf: ptv-server 3.0.14.7-6
+buster|main|armhf: ptv-server 3.0.15.8-1
 buster|main|armhf: useridlecheck 0.2-1
 buster|main|armhf: wol-service 0.1-1
 buster|main|source: autoshutdown 0.9.9.10c-1
 buster|main|source: onedrive 2.4.0-1
-buster|main|source: ptv-server 3.0.14.7-6
+buster|main|source: ptv-server 3.0.15.8-1
 buster|main|source: unison-service 0.2-1
 buster|main|source: useridlecheck 0.2-1

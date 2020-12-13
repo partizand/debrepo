@@ -274,19 +274,19 @@ Description: debug symbols for onedrive
 Build-Ids: a48a291088f48ef536a7ad683fce65c55330bb49
 
 Package: ptv-server
-Version: 3.0.14.7-6
+Version: 3.0.15.8-1
 Architecture: all
 Maintainer: Partizand <partizand@gmail.com>
-Installed-Size: 3282
+Installed-Size: 3296
 Depends: python2
 Conflicts: ptv3
 Priority: optional
 Section: net
-Filename: pool/main/p/ptv-server/ptv-server_3.0.14.7-6_all.deb
-Size: 548552
-SHA256: 841d740d6f00d4fe432f43989e501b526621b5fddae9b7a5d14b45a079d3df64
-SHA1: 3b3de809ef1a501a9a6a6826c9b8a3f55d0ca82a
-MD5sum: 0004a1908223660e6e9125cbfce0a4fb
+Filename: pool/main/p/ptv-server/ptv-server_3.0.15.8-1_all.deb
+Size: 548476
+SHA256: 1d518efd04d8ebd721a3ba1774f3d0f52a5b4f15ac30cfed1950b06fb6579f5e
+SHA1: e3bca1cfcc3268c80d3cc49598bf9ac80369912c
+MD5sum: 77e43d5c66309e706aecf0fd1b72b99c
 Description: Puzzle TV server packed to deb systemd service
  Carefully store settings and security
  http://xbmc.ru/forum/showthread.php?t=16628
@@ -437,4 +437,23 @@ Description: Disk encryption with strong security based on TrueCrypt.
 Maintainer: VeraCrypt Team <veracrypt@idrix.fr>
 Version: 1.24.7-1
 Installed-Size: 7186
+
+Package: wol-service
+Version: 0.1-1
+Architecture: all
+Maintainer: Partizand <partizand@gmail.com>
+Installed-Size: 13
+Depends: ethtool
+Priority: optional
+Section: misc
+Filename: pool/main/w/wol-service/wol-service_0.1-1_all.deb
+Size: 2408
+SHA256: 49817553b85f8885324687e25f34d38f9b47083d828dc96692abd9033c45c3ff
+SHA1: 9aef4ccc005a880eeb352beb2977ad4d8ab63bae
+MD5sum: 7f2ef731eb1b52dbd8b803e563d964b3
+Description: Service to enable Wake-on-LAN on interface. From Arch wiki
+ For activate Wake-on-LAN on interface, start this service by starting wol@interface-name.service
+ For example enp3s0 interface use wol@enp3s0.service:
+ sudo systemctl enable wol@enp3s0.service
+ sudo systemctl start wol@enp3s0.service
 
